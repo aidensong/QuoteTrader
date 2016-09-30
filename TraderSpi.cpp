@@ -283,10 +283,20 @@ void CTraderSpi::OnRspQryInvestorPosition(CThostFtdcInvestorPositionField *pInve
 				pInvestorPosition->ShortFrozen = 0;
 				}*/
 			InvestorPositionList.push_back(*pInvestorPosition);			
-			cerr << "[Position]|<" << pInvestorPosition->InstrumentID << ">|(2.Long 3.Short):" << pInvestorPosition->PosiDirection << "|Position:" << pInvestorPosition->Position
-				<< "|LongFrozen:" << pInvestorPosition->LongFrozen << "|ShortFrozen:" << pInvestorPosition->ShortFrozen << endl;
-			LOG(INFO) << "[Position]|<" << pInvestorPosition->InstrumentID << ">|(2.Long 3.Short):" << pInvestorPosition->PosiDirection << "|Position:" << pInvestorPosition->Position
-				<< "|LongFrozen£º" << pInvestorPosition->LongFrozen << "|ShortFrozen£º" << pInvestorPosition->ShortFrozen << endl;
+			cerr << "[Position]|<" << pInvestorPosition->InstrumentID << ">|(2.Long 3.Short):"
+				<< pInvestorPosition->PosiDirection << "|Position:" << pInvestorPosition->Position
+		/*		<< "|Frozen:" 
+				<< (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)*/
+				<< "|Enable:" 
+				<< pInvestorPosition->Position - (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)
+				<< endl;
+			LOG(INFO) << "[Position]|<" << pInvestorPosition->InstrumentID << ">|(2.Long 3.Short):"
+				<< pInvestorPosition->PosiDirection << "|Position:" << pInvestorPosition->Position
+		/*		<< "|Frozen:"
+				<< (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)*/
+				<< "|Enable:"
+				<< pInvestorPosition->Position - (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)
+				<< endl;
 		}
 		g_lockqueue.unlock();
 	    }

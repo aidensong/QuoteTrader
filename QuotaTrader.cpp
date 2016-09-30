@@ -102,10 +102,27 @@ void  LogpInvestorPosition()
 	{
 		if (InvestorPosition.Position > 0)  //存在持仓，才打印持仓记录
 		{
-			cerr << "[Position]|<" << InvestorPosition.InstrumentID << ">|(2.Long3.Short):" << InvestorPosition.PosiDirection << "|Position:" << InvestorPosition.Position
+			
+			//InvestorPositionList.push_back(*pInvestorPosition);
+			cerr << "[Position]|<" << InvestorPosition.InstrumentID << ">|(2.Long 3.Short):"
+				<< InvestorPosition.PosiDirection << "|Position:" << InvestorPosition.Position
+			/*	<< "|Frozen:"
+				<< (InvestorPosition.PosiDirection == '2' ? InvestorPosition.ShortFrozen : InvestorPosition.LongFrozen)*/
+				<< "|Enable:"
+				<< InvestorPosition.Position - (InvestorPosition.PosiDirection == '2' ? InvestorPosition.ShortFrozen : InvestorPosition.LongFrozen)
+				<< endl;
+			LOG(INFO) << "[Position]|<" << InvestorPosition.InstrumentID << ">|(2.Long 3.Short):"
+				<< InvestorPosition.PosiDirection << "|Position:" << InvestorPosition.Position
+			/*	<< "|Frozen:"
+				<< (InvestorPosition.PosiDirection == '2' ? InvestorPosition.ShortFrozen : InvestorPosition.LongFrozen)*/
+				<< "|Enable:"
+				<< InvestorPosition.Position - (InvestorPosition.PosiDirection == '2' ? InvestorPosition.ShortFrozen : InvestorPosition.LongFrozen)
+				<< endl;
+			
+	/*		cerr << "[Position]|<" << InvestorPosition.InstrumentID << ">|(2.Long3.Short):" << InvestorPosition.PosiDirection << "|Position:" << InvestorPosition.Position
 				<< "|LongFrozen:" << InvestorPosition.LongFrozen << "|ShortFrozen:" << InvestorPosition.ShortFrozen << endl;
 	   LOG(INFO) << "[Position]|<" << InvestorPosition.InstrumentID << ">|(2.Long3.Short):" << InvestorPosition.PosiDirection << "|Position:" << InvestorPosition.Position
-				<< "|LongFrozen:" << InvestorPosition.LongFrozen << "|ShortFrozen:" << InvestorPosition.ShortFrozen << endl;
+				<< "|LongFrozen:" << InvestorPosition.LongFrozen << "|ShortFrozen:" << InvestorPosition.ShortFrozen << endl;*/
 		}
 	}
 
