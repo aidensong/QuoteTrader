@@ -1,0 +1,414 @@
+Log file created at: 2016/09/29 10:38:05
+Running on machine: AIDEN
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0929 10:38:05.886170  6356 MdSpi.cpp:32] --->>> OnFrontConnected
+I0929 10:38:05.889173  6356 MdSpi.cpp:47] --->>> ReqUserLogin: Success
+I0929 10:38:05.898178  6356 MdSpi.cpp:54] --->>> OnRspUserLogin
+I0929 10:38:05.898178  6356 MdSpi.cpp:266] --->>> ErrorID=0, ErrorMsg=CTP:No Error
+I0929 10:38:05.901180  6356 MdSpi.cpp:60] --->>> GetTradingDay = 20160929
+I0929 10:38:05.903183  6356 MdSpi.cpp:115] --->>> SubscribeMarketData: Success
+I0929 10:38:05.906185  6356 MdSpi.cpp:137] --->>> SubscribeForQuoteRsp: Success
+I0929 10:38:05.916190  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2200>
+I0929 10:38:05.919193  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2250>
+I0929 10:38:05.921221  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2300>
+I0929 10:38:05.923197  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2350>
+I0929 10:38:05.924196  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2400>
+I0929 10:38:05.926198  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2450>
+I0929 10:38:05.928200  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2500>
+I0929 10:38:05.931201  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2550>
+I0929 10:38:05.933204  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2600>
+I0929 10:38:05.935204  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2650>
+I0929 10:38:05.936204  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2700>
+I0929 10:38:05.938206  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2750>
+I0929 10:38:05.939208  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2800>
+I0929 10:38:05.940209  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2850>
+I0929 10:38:05.940209  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2900>
+I0929 10:38:05.941210  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-2950>
+I0929 10:38:05.942211  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3000>
+I0929 10:38:05.944211  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3050>
+I0929 10:38:05.945211  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3100>
+I0929 10:38:05.946213  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3150>
+I0929 10:38:05.947214  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3200>
+I0929 10:38:05.949215  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3250>
+I0929 10:38:05.951218  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3300>
+I0929 10:38:05.952216  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3350>
+I0929 10:38:05.955219  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3400>
+I0929 10:38:05.956219  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3450>
+I0929 10:38:05.959221  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3500>
+I0929 10:38:05.960222  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3550>
+I0929 10:38:05.961222  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3600>
+I0929 10:38:05.962224  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3650>
+I0929 10:38:05.963224  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-C-3700>
+I0929 10:38:05.964226  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2200>
+I0929 10:38:05.965225  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2250>
+I0929 10:38:05.966226  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2300>
+I0929 10:38:05.968227  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2350>
+I0929 10:38:05.969229  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2400>
+I0929 10:38:05.970228  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2450>
+I0929 10:38:05.971230  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2500>
+I0929 10:38:05.972230  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2550>
+I0929 10:38:05.973232  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2600>
+I0929 10:38:05.974233  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2650>
+I0929 10:38:05.976234  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2700>
+I0929 10:38:05.977236  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2750>
+I0929 10:38:05.978235  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2800>
+I0929 10:38:05.979235  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2850>
+I0929 10:38:05.980237  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2900>
+I0929 10:38:05.982239  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-2950>
+I0929 10:38:05.983254  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3000>
+I0929 10:38:05.985239  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3050>
+I0929 10:38:05.986240  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3100>
+I0929 10:38:05.987241  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3150>
+I0929 10:38:05.988242  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3200>
+I0929 10:38:05.989243  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3250>
+I0929 10:38:05.990243  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3300>
+I0929 10:38:05.991245  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3350>
+I0929 10:38:05.992245  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3400>
+I0929 10:38:05.994246  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3450>
+I0929 10:38:05.995246  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3500>
+I0929 10:38:05.996248  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3550>
+I0929 10:38:05.997248  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3600>
+I0929 10:38:05.998250  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3650>
+I0929 10:38:05.999249  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1612-P-3700>
+I0929 10:38:06.001251  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2250>
+I0929 10:38:06.002251  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2300>
+I0929 10:38:06.004253  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2350>
+I0929 10:38:06.005254  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2400>
+I0929 10:38:06.006255  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2450>
+I0929 10:38:06.008256  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2500>
+I0929 10:38:06.009259  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2550>
+I0929 10:38:06.010258  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2600>
+I0929 10:38:06.012259  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2650>
+I0929 10:38:06.013260  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2700>
+I0929 10:38:06.014261  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2750>
+I0929 10:38:06.015261  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2800>
+I0929 10:38:06.016261  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2850>
+I0929 10:38:06.017262  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2900>
+I0929 10:38:06.018263  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-2950>
+I0929 10:38:06.020264  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3000>
+I0929 10:38:06.022266  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3050>
+I0929 10:38:06.023267  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3100>
+I0929 10:38:06.024267  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3150>
+I0929 10:38:06.026269  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3200>
+I0929 10:38:06.027269  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3250>
+I0929 10:38:06.028270  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3300>
+I0929 10:38:06.029271  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3350>
+I0929 10:38:06.031272  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3400>
+I0929 10:38:06.032274  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3450>
+I0929 10:38:06.033274  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3500>
+I0929 10:38:06.034274  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-C-3550>
+I0929 10:38:06.035276  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2250>
+I0929 10:38:06.037277  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2300>
+I0929 10:38:06.038278  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2350>
+I0929 10:38:06.039278  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2400>
+I0929 10:38:06.040279  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2450>
+I0929 10:38:06.041280  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2500>
+I0929 10:38:06.042279  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2550>
+I0929 10:38:06.044281  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2600>
+I0929 10:38:06.045282  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2650>
+I0929 10:38:06.046283  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2700>
+I0929 10:38:06.047283  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2750>
+I0929 10:38:06.048285  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2800>
+I0929 10:38:06.049285  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2850>
+I0929 10:38:06.050287  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2900>
+I0929 10:38:06.051286  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-2950>
+I0929 10:38:06.052287  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3000>
+I0929 10:38:06.053288  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3050>
+I0929 10:38:06.054289  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3100>
+I0929 10:38:06.055289  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3150>
+I0929 10:38:06.056290  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3200>
+I0929 10:38:06.057291  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3250>
+I0929 10:38:06.059293  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3300>
+I0929 10:38:06.060293  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3500>
+I0929 10:38:06.061295  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1703-P-3550>
+I0929 10:38:06.062294  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2500>
+I0929 10:38:06.063295  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2550>
+I0929 10:38:06.064296  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2600>
+I0929 10:38:06.065297  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2650>
+I0929 10:38:06.066298  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2700>
+I0929 10:38:06.067298  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2750>
+I0929 10:38:06.069299  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2800>
+I0929 10:38:06.070300  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2850>
+I0929 10:38:06.071301  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2900>
+I0929 10:38:06.072301  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-2950>
+I0929 10:38:06.073302  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-3000>
+I0929 10:38:06.074304  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-C-3050>
+I0929 10:38:06.075304  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2500>
+I0929 10:38:06.076304  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2550>
+I0929 10:38:06.077306  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2600>
+I0929 10:38:06.078306  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2650>
+I0929 10:38:06.079306  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2700>
+I0929 10:38:06.080307  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2750>
+I0929 10:38:06.081307  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2800>
+I0929 10:38:06.082309  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2850>
+I0929 10:38:06.083308  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2900>
+I0929 10:38:06.084311  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-2950>
+I0929 10:38:06.085310  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-3000>
+I0929 10:38:06.086313  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1707-P-3050>
+I0929 10:38:06.087311  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2500>
+I0929 10:38:06.088312  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2550>
+I0929 10:38:06.089313  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2600>
+I0929 10:38:06.090313  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2650>
+I0929 10:38:06.091315  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2700>
+I0929 10:38:06.092315  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2750>
+I0929 10:38:06.093317  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2800>
+I0929 10:38:06.094317  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2850>
+I0929 10:38:06.095317  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2900>
+I0929 10:38:06.096319  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-2950>
+I0929 10:38:06.098320  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-3000>
+I0929 10:38:06.099320  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-3050>
+I0929 10:38:06.100322  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-C-3100>
+I0929 10:38:06.102322  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2500>
+I0929 10:38:06.103323  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2550>
+I0929 10:38:06.104324  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2600>
+I0929 10:38:06.105325  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2650>
+I0929 10:38:06.106325  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2700>
+I0929 10:38:06.107326  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2750>
+I0929 10:38:06.108327  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2800>
+I0929 10:38:06.109328  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2850>
+I0929 10:38:06.110328  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2900>
+I0929 10:38:06.111330  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-2950>
+I0929 10:38:06.112330  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-3000>
+I0929 10:38:06.113330  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-3050>
+I0929 10:38:06.114331  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1708-P-3100>
+I0929 10:38:06.116333  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2550>
+I0929 10:38:06.117333  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2600>
+I0929 10:38:06.118335  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2650>
+I0929 10:38:06.119335  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2700>
+I0929 10:38:06.120335  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2750>
+I0929 10:38:06.121336  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2800>
+I0929 10:38:06.122337  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2850>
+I0929 10:38:06.123338  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2900>
+I0929 10:38:06.124338  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-C-2950>
+I0929 10:38:06.125339  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2550>
+I0929 10:38:06.126340  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2600>
+I0929 10:38:06.127341  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2650>
+I0929 10:38:06.128340  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2700>
+I0929 10:38:06.129343  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2750>
+I0929 10:38:06.130342  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2800>
+I0929 10:38:06.131342  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2850>
+I0929 10:38:06.133345  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2900>
+I0929 10:38:06.134346  6356 MdSpi.cpp:144] [OnRspSubMarketData]|<m1709-P-2950>
+I0929 10:38:06.135345  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2200>
+I0929 10:38:06.136348  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2250>
+I0929 10:38:06.137347  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2300>
+I0929 10:38:06.138347  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2350>
+I0929 10:38:06.139348  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2400>
+I0929 10:38:06.140349  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2450>
+I0929 10:38:06.141350  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2500>
+I0929 10:38:06.142351  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2550>
+I0929 10:38:06.143352  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2600>
+I0929 10:38:06.145354  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2650>
+I0929 10:38:06.146354  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2700>
+I0929 10:38:06.147354  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2750>
+I0929 10:38:06.148356  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2800>
+I0929 10:38:06.150357  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2850>
+I0929 10:38:06.151357  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2900>
+I0929 10:38:06.152359  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-2950>
+I0929 10:38:06.153359  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3000>
+I0929 10:38:06.154361  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3050>
+I0929 10:38:06.155360  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3100>
+I0929 10:38:06.156360  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3150>
+I0929 10:38:06.157361  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3200>
+I0929 10:38:06.158362  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3250>
+I0929 10:38:06.159363  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3300>
+I0929 10:38:06.160363  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3350>
+I0929 10:38:06.161365  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3400>
+I0929 10:38:06.163365  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3450>
+I0929 10:38:06.164366  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3500>
+I0929 10:38:06.165367  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3550>
+I0929 10:38:06.166368  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3600>
+I0929 10:38:06.167369  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3650>
+I0929 10:38:06.168370  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-C-3700>
+I0929 10:38:06.169370  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2200>
+I0929 10:38:06.170370  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2250>
+I0929 10:38:06.171371  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2300>
+I0929 10:38:06.172372  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2350>
+I0929 10:38:06.173373  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2400>
+I0929 10:38:06.174373  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2450>
+I0929 10:38:06.175374  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2500>
+I0929 10:38:06.176374  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2550>
+I0929 10:38:06.177376  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2600>
+I0929 10:38:06.179378  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2650>
+I0929 10:38:06.180377  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2700>
+I0929 10:38:06.181378  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2750>
+I0929 10:38:06.182379  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2800>
+I0929 10:38:06.183379  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2850>
+I0929 10:38:06.184381  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2900>
+I0929 10:38:06.186381  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-2950>
+I0929 10:38:06.187383  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3000>
+I0929 10:38:06.188383  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3050>
+I0929 10:38:06.189384  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3100>
+I0929 10:38:06.190385  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3150>
+I0929 10:38:06.191385  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3200>
+I0929 10:38:06.192386  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3250>
+I0929 10:38:06.193387  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3300>
+I0929 10:38:06.194388  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3350>
+I0929 10:38:06.195389  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3400>
+I0929 10:38:06.196389  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3450>
+I0929 10:38:06.198390  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3500>
+I0929 10:38:06.199391  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3550>
+I0929 10:38:06.200392  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3600>
+I0929 10:38:06.201392  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3650>
+I0929 10:38:06.202394  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1612-P-3700>
+I0929 10:38:06.203393  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2250>
+I0929 10:38:06.204394  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2300>
+I0929 10:38:06.205396  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2350>
+I0929 10:38:06.206396  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2400>
+I0929 10:38:06.207397  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2450>
+I0929 10:38:06.208397  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2500>
+I0929 10:38:06.209398  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2550>
+I0929 10:38:06.210399  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2600>
+I0929 10:38:06.211400  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2650>
+I0929 10:38:06.212400  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2700>
+I0929 10:38:06.214402  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2750>
+I0929 10:38:06.215404  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2800>
+I0929 10:38:06.216403  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2850>
+I0929 10:38:06.217404  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2900>
+I0929 10:38:06.218405  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-2950>
+I0929 10:38:06.219405  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3000>
+I0929 10:38:06.220407  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3050>
+I0929 10:38:06.221407  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3100>
+I0929 10:38:06.222409  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3150>
+I0929 10:38:06.223408  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3200>
+I0929 10:38:06.225409  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3250>
+I0929 10:38:06.226411  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3300>
+I0929 10:38:06.227411  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3350>
+I0929 10:38:06.228411  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3400>
+I0929 10:38:06.229413  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3450>
+I0929 10:38:06.230413  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3500>
+I0929 10:38:06.231413  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-C-3550>
+I0929 10:38:06.232414  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2250>
+I0929 10:38:06.233417  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2300>
+I0929 10:38:06.234416  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2350>
+I0929 10:38:06.235417  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2400>
+I0929 10:38:06.236418  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2450>
+I0929 10:38:06.237418  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2500>
+I0929 10:38:06.238420  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2550>
+I0929 10:38:06.239419  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2600>
+I0929 10:38:06.240420  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2650>
+I0929 10:38:06.241421  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2700>
+I0929 10:38:06.243422  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2750>
+I0929 10:38:06.244423  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2800>
+I0929 10:38:06.245424  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2850>
+I0929 10:38:06.246424  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2900>
+I0929 10:38:06.247426  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-2950>
+I0929 10:38:06.248426  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3000>
+I0929 10:38:06.249428  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3050>
+I0929 10:38:06.250427  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3100>
+I0929 10:38:06.251427  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3150>
+I0929 10:38:06.252429  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3200>
+I0929 10:38:06.254431  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3250>
+I0929 10:38:06.255430  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3300>
+I0929 10:38:06.256431  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3500>
+I0929 10:38:06.258433  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1703-P-3550>
+I0929 10:38:06.259434  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2500>
+I0929 10:38:06.260434  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2550>
+I0929 10:38:06.261435  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2600>
+I0929 10:38:06.262436  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2650>
+I0929 10:38:06.263437  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2700>
+I0929 10:38:06.264437  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2750>
+I0929 10:38:06.265437  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2800>
+I0929 10:38:06.266438  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2850>
+I0929 10:38:06.267439  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2900>
+I0929 10:38:06.269440  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-2950>
+I0929 10:38:06.270442  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-3000>
+I0929 10:38:06.271442  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-C-3050>
+I0929 10:38:06.272444  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2500>
+I0929 10:38:06.273444  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2550>
+I0929 10:38:06.274446  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2600>
+I0929 10:38:06.275445  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2650>
+I0929 10:38:06.276446  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2700>
+I0929 10:38:06.277446  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2750>
+I0929 10:38:06.278447  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2800>
+I0929 10:38:06.280449  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2850>
+I0929 10:38:06.281450  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2900>
+I0929 10:38:06.282450  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-2950>
+I0929 10:38:06.283452  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-3000>
+I0929 10:38:06.284451  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1707-P-3050>
+I0929 10:38:06.285451  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2500>
+I0929 10:38:06.286453  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2550>
+I0929 10:38:06.288455  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2600>
+I0929 10:38:06.289455  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2650>
+I0929 10:38:06.290457  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2700>
+I0929 10:38:06.291456  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2750>
+I0929 10:38:06.292457  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2800>
+I0929 10:38:06.293458  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2850>
+I0929 10:38:06.294458  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2900>
+I0929 10:38:06.295459  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-2950>
+I0929 10:38:06.297461  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-3000>
+I0929 10:38:06.298461  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-3050>
+I0929 10:38:06.299463  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-C-3100>
+I0929 10:38:06.300462  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2500>
+I0929 10:38:06.301463  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2550>
+I0929 10:38:06.302464  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2600>
+I0929 10:38:06.304466  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2650>
+I0929 10:38:06.305467  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2700>
+I0929 10:38:06.306468  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2750>
+I0929 10:38:06.307467  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2800>
+I0929 10:38:06.308468  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2850>
+I0929 10:38:06.309468  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2900>
+I0929 10:38:06.310470  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-2950>
+I0929 10:38:06.311470  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-3000>
+I0929 10:38:06.312471  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-3050>
+I0929 10:38:06.313472  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1708-P-3100>
+I0929 10:38:06.314472  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2550>
+I0929 10:38:06.316474  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2600>
+I0929 10:38:06.317476  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2650>
+I0929 10:38:06.318476  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2700>
+I0929 10:38:06.319476  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2750>
+I0929 10:38:06.320477  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2800>
+I0929 10:38:06.321478  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2850>
+I0929 10:38:06.322479  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2900>
+I0929 10:38:06.323479  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-C-2950>
+I0929 10:38:06.324481  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2550>
+I0929 10:38:06.325481  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2600>
+I0929 10:38:06.326481  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2650>
+I0929 10:38:06.330483  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2700>
+I0929 10:38:06.331485  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2750>
+I0929 10:38:06.332486  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2800>
+I0929 10:38:06.333487  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2850>
+I0929 10:38:06.334487  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2900>
+I0929 10:38:06.336491  6356 MdSpi.cpp:151] [OnRspSubForQuoteRsp]|<m1709-P-2950>
+I0929 10:38:06.968937  6512 TraderSpi.cpp:224] Order|OrderSysID:    10035924|<m1612-P-2950>|(Bid 0 Ask 1):0|VolumeTotalOriginal:4|VolumeTotal:4|VolumeTraded:0|LimitPrice:131|OrderStatus:5
+I0929 10:38:06.983947  6512 TraderSpi.cpp:224] Order|OrderSysID:    10546683|<m1611-C-2400>|(Bid 0 Ask 1):0|VolumeTotalOriginal:1|VolumeTotal:0|VolumeTraded:1|LimitPrice:1415|OrderStatus:0
+I0929 10:38:06.999958  6512 TraderSpi.cpp:224] Order|OrderSysID:    10546095|<m1611-C-2300>|(Bid 0 Ask 1):0|VolumeTotalOriginal:4|VolumeTotal:0|VolumeTraded:4|LimitPrice:1357|OrderStatus:0
+I0929 10:38:07.010967  6512 TraderSpi.cpp:224] Order|OrderSysID:    10545804|<m1611-C-2250>|(Bid 0 Ask 1):1|VolumeTotalOriginal:20|VolumeTotal:0|VolumeTraded:20|LimitPrice:1308|OrderStatus:0
+I0929 10:38:07.019973  6512 TraderSpi.cpp:224] Order|OrderSysID:    10545253|<m1611-C-2200>|(Bid 0 Ask 1):1|VolumeTotalOriginal:8|VolumeTotal:0|VolumeTraded:8|LimitPrice:1385|OrderStatus:0
+I0929 10:38:07.028980  6512 TraderSpi.cpp:224] Order|OrderSysID:    10544176|<m1611-C-2150>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:0|VolumeTraded:10|LimitPrice:1511|OrderStatus:0
+I0929 10:38:07.036984  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192920|<m1611-P-3650>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1734|OrderStatus:5
+I0929 10:38:07.043989  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192919|<m1611-P-3650>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1729|OrderStatus:5
+I0929 10:38:07.049993  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192916|<m1611-C-2400>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:9|VolumeTraded:1|LimitPrice:1304.5|OrderStatus:5
+I0929 10:38:07.056999  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192913|<m1611-C-2400>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1299.5|OrderStatus:5
+I0929 10:38:07.065004  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192910|<m1611-C-2350>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1321.5|OrderStatus:5
+I0929 10:38:07.072008  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192908|<m1611-C-2300>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:6|VolumeTraded:4|LimitPrice:1338.5|OrderStatus:5
+I0929 10:38:07.080014  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192907|<m1611-C-2350>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1316.5|OrderStatus:5
+I0929 10:38:07.086025  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192906|<m1611-C-2300>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1333.5|OrderStatus:5
+I0929 10:38:07.093042  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192905|<m1611-C-2250>|(Bid 0 Ask 1):1|VolumeTotalOriginal:20|VolumeTotal:20|VolumeTraded:0|LimitPrice:1357.5|OrderStatus:5
+I0929 10:38:07.099030  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192903|<m1611-C-2250>|(Bid 0 Ask 1):0|VolumeTotalOriginal:20|VolumeTotal:0|VolumeTraded:20|LimitPrice:1352.5|OrderStatus:0
+I0929 10:38:07.106034  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192901|<m1611-C-2150>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:0|VolumeTraded:10|LimitPrice:1399.5|OrderStatus:0
+I0929 10:38:07.112037  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192899|<m1611-C-2200>|(Bid 0 Ask 1):0|VolumeTotalOriginal:23|VolumeTotal:15|VolumeTraded:8|LimitPrice:1373.5|OrderStatus:5
+I0929 10:38:07.120062  6512 TraderSpi.cpp:224] Order|OrderSysID:    10192898|<m1611-C-2150>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:1394.5|OrderStatus:5
+I0929 10:38:07.128072  6512 TraderSpi.cpp:224] Order|OrderSysID:    10093062|<m1612-P-3350>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:0|VolumeTraded:10|LimitPrice:404|OrderStatus:0
+I0929 10:38:07.137058  6512 TraderSpi.cpp:224] Order|OrderSysID:    10092347|<m1612-P-3300>|(Bid 0 Ask 1):1|VolumeTotalOriginal:20|VolumeTotal:0|VolumeTraded:20|LimitPrice:365|OrderStatus:0
+I0929 10:38:07.143060  6512 TraderSpi.cpp:224] Order|OrderSysID:    10090521|<m1612-P-3150>|(Bid 0 Ask 1):0|VolumeTotalOriginal:12|VolumeTotal:0|VolumeTraded:12|LimitPrice:371|OrderStatus:0
+I0929 10:38:07.150064  6512 TraderSpi.cpp:224] Order|OrderSysID:    10087379|<m1612-P-3150>|(Bid 0 Ask 1):0|VolumeTotalOriginal:12|VolumeTotal:12|VolumeTraded:0|LimitPrice:365|OrderStatus:5
+I0929 10:38:07.156069  6512 TraderSpi.cpp:224] Order|OrderSysID:    10080723|<m1612-P-3000>|(Bid 0 Ask 1):0|VolumeTotalOriginal:11|VolumeTotal:0|VolumeTraded:11|LimitPrice:282|OrderStatus:0
+I0929 10:38:07.162072  6512 TraderSpi.cpp:224] Order|OrderSysID:    10069399|<m1612-P-3350>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:518.5|OrderStatus:5
+I0929 10:38:07.169078  6512 TraderSpi.cpp:224] Order|OrderSysID:    10069257|<m1612-P-3350>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:518.5|OrderStatus:5
+I0929 10:38:07.175086  6512 TraderSpi.cpp:224] Order|OrderSysID:    10068719|<m1612-P-3300>|(Bid 0 Ask 1):1|VolumeTotalOriginal:20|VolumeTotal:20|VolumeTraded:0|LimitPrice:479.5|OrderStatus:5
+I0929 10:38:07.182087  6512 TraderSpi.cpp:224] Order|OrderSysID:    10068474|<m1612-P-3300>|(Bid 0 Ask 1):1|VolumeTotalOriginal:20|VolumeTotal:20|VolumeTraded:0|LimitPrice:479.5|OrderStatus:5
+I0929 10:38:07.189092  6512 TraderSpi.cpp:224] Order|OrderSysID:    10068051|<m1612-P-3150>|(Bid 0 Ask 1):0|VolumeTotalOriginal:12|VolumeTotal:12|VolumeTraded:0|LimitPrice:370|OrderStatus:5
+I0929 10:38:07.196115  6512 TraderSpi.cpp:224] Order|OrderSysID:    10067804|<m1612-P-3150>|(Bid 0 Ask 1):0|VolumeTotalOriginal:12|VolumeTotal:12|VolumeTraded:0|LimitPrice:370|OrderStatus:5
+I0929 10:38:07.203101  6512 TraderSpi.cpp:224] Order|OrderSysID:    10067134|<m1612-P-3000>|(Bid 0 Ask 1):0|VolumeTotalOriginal:11|VolumeTotal:11|VolumeTraded:0|LimitPrice:273|OrderStatus:5
+I0929 10:38:07.209107  6512 TraderSpi.cpp:224] Order|OrderSysID:    10066718|<m1612-P-3000>|(Bid 0 Ask 1):0|VolumeTotalOriginal:11|VolumeTotal:11|VolumeTraded:0|LimitPrice:273|OrderStatus:5
+I0929 10:38:07.216111  6512 TraderSpi.cpp:224] Order|OrderSysID:    10066224|<m1612-P-2950>|(Bid 0 Ask 1):0|VolumeTotalOriginal:4|VolumeTotal:0|VolumeTraded:4|LimitPrice:359|OrderStatus:0
+I0929 10:38:07.222115  6512 TraderSpi.cpp:224] Order|OrderSysID:    10065526|<m1612-P-2650>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:0|VolumeTraded:10|LimitPrice:157|OrderStatus:0
+I0929 10:38:07.228119  6512 TraderSpi.cpp:224] Order|OrderSysID:    10064531|<m1612-P-2550>|(Bid 0 Ask 1):0|VolumeTotalOriginal:5|VolumeTotal:0|VolumeTraded:5|LimitPrice:191.5|OrderStatus:0
+I0929 10:38:07.234123  6512 TraderSpi.cpp:224] Order|OrderSysID:    10064009|<m1612-P-2550>|(Bid 0 Ask 1):0|VolumeTotalOriginal:7|VolumeTotal:5|VolumeTraded:2|LimitPrice:191.5|OrderStatus:5
+I0929 10:38:07.239127  6512 TraderSpi.cpp:224] Order|OrderSysID:    10063149|<m1612-P-2550>|(Bid 0 Ask 1):0|VolumeTotalOriginal:17|VolumeTotal:7|VolumeTraded:10|LimitPrice:126|OrderStatus:5
+I0929 10:38:07.245131  6512 TraderSpi.cpp:224] Order|OrderSysID:    10044921|<m1612-P-2550>|(Bid 0 Ask 1):0|VolumeTotalOriginal:17|VolumeTotal:17|VolumeTraded:0|LimitPrice:32|OrderStatus:5
+I0929 10:38:07.250135  6512 TraderSpi.cpp:224] Order|OrderSysID:    10040088|<m1612-P-2650>|(Bid 0 Ask 1):0|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:9|OrderStatus:5
+I0929 10:38:07.256160  6512 TraderSpi.cpp:224] Order|OrderSysID:    10037127|<m1612-P-3350>|(Bid 0 Ask 1):1|VolumeTotalOriginal:10|VolumeTotal:10|VolumeTraded:0|LimitPrice:518.5|OrderStatus:5
+I0929 10:38:07.256160  6512 TraderSpi.cpp:237] --------------------------------------------------------------------------------
+I0929 10:38:07.275156  6512 TraderSpi.cpp:297] --------------------------------------------------------------------------------

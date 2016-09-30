@@ -1,0 +1,9 @@
+MDAddress=tcp://172.16.100.225:41213   
+TraderAddress=tcp://172.16.100.225:41205
+brokerID=7080
+user=
+pwd=
+UserProductInfo=AutoTrader
+AuthCode=AGI805CUZ6JTQEDD
+spreed=5
+volume=10

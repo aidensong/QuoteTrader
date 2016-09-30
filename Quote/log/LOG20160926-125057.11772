@@ -1,0 +1,525 @@
+Log file created at: 2016/09/26 12:50:57
+Running on machine: AIDEN
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0926 12:50:57.577265  6252 MdSpi.cpp:32] --->>> OnFrontConnected
+I0926 12:50:57.581269  6252 MdSpi.cpp:47] --->>> 发送用户登录请求: 成功
+I0926 12:50:57.588274  6252 MdSpi.cpp:54] --->>> OnRspUserLogin
+I0926 12:50:57.588274  6252 MdSpi.cpp:266] --->>> ErrorID=0, ErrorMsg=CTP:No Error
+I0926 12:50:57.590275  6252 MdSpi.cpp:60] --->>> 获取当前交易日 = 20160926
+I0926 12:50:57.591275  6252 MdSpi.cpp:115] --->>> 发送行情订阅请求: 成功
+I0926 12:50:57.592275  6252 MdSpi.cpp:137] --->>> 发送询价订阅请求: 成功
+I0926 12:50:57.607287  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2200>
+I0926 12:50:57.609288  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2250>
+I0926 12:50:57.612292  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2300>
+I0926 12:50:57.621296  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2350>
+I0926 12:50:57.624299  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2400>
+I0926 12:50:57.630302  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2450>
+I0926 12:50:57.635306  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2500>
+I0926 12:50:57.637308  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2550>
+I0926 12:50:57.640311  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2600>
+I0926 12:50:57.642312  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2650>
+I0926 12:50:57.647315  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2700>
+I0926 12:50:57.650316  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2750>
+I0926 12:50:57.652318  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2800>
+I0926 12:50:57.655320  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2850>
+I0926 12:50:57.657322  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2900>
+I0926 12:50:57.660325  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-2950>
+I0926 12:50:57.664327  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3000>
+I0926 12:50:57.666328  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3050>
+I0926 12:50:57.668329  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3100>
+I0926 12:50:57.671331  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3150>
+I0926 12:50:57.673333  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3200>
+I0926 12:50:57.675334  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3250>
+I0926 12:50:57.677335  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3300>
+I0926 12:50:57.679337  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3350>
+I0926 12:50:57.681339  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3400>
+I0926 12:50:57.683341  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3450>
+I0926 12:50:57.685343  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3500>
+I0926 12:50:57.687343  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3550>
+I0926 12:50:57.689344  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3600>
+I0926 12:50:57.692347  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3650>
+I0926 12:50:57.694349  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-C-3700>
+I0926 12:50:57.696351  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2200>
+I0926 12:50:57.698351  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2250>
+I0926 12:50:57.701354  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2300>
+I0926 12:50:57.703354  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2350>
+I0926 12:50:57.705355  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2400>
+I0926 12:50:57.707357  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2450>
+I0926 12:50:57.709358  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2500>
+I0926 12:50:57.711359  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2550>
+I0926 12:50:57.713361  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2600>
+I0926 12:50:57.716363  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2650>
+I0926 12:50:57.718364  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2700>
+I0926 12:50:57.720366  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2750>
+I0926 12:50:57.723368  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2800>
+I0926 12:50:57.725369  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2850>
+I0926 12:50:57.727371  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2900>
+I0926 12:50:57.729372  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-2950>
+I0926 12:50:57.732375  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3000>
+I0926 12:50:57.734376  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3050>
+I0926 12:50:57.736378  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3100>
+I0926 12:50:57.738379  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3150>
+I0926 12:50:57.740381  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3200>
+I0926 12:50:57.742383  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3250>
+I0926 12:50:57.744385  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3300>
+I0926 12:50:57.747385  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3350>
+I0926 12:50:57.749387  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3400>
+I0926 12:50:57.751389  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3450>
+I0926 12:50:57.754390  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3500>
+I0926 12:50:57.757392  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3550>
+I0926 12:50:57.760395  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3600>
+I0926 12:50:57.763397  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3650>
+I0926 12:50:57.765398  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1612-P-3700>
+I0926 12:50:57.767400  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2250>
+I0926 12:50:57.769402  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2300>
+I0926 12:50:57.771402  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2350>
+I0926 12:50:57.774405  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2400>
+I0926 12:50:57.776407  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2450>
+I0926 12:50:57.778408  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2500>
+I0926 12:50:57.780408  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2550>
+I0926 12:50:57.782410  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2600>
+I0926 12:50:57.784411  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2650>
+I0926 12:50:57.786413  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2700>
+I0926 12:50:57.788414  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2750>
+I0926 12:50:57.791417  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2800>
+I0926 12:50:57.794419  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2850>
+I0926 12:50:57.797421  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2900>
+I0926 12:50:57.799422  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-2950>
+I0926 12:50:57.801424  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3000>
+I0926 12:50:57.803426  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3050>
+I0926 12:50:57.806427  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3100>
+I0926 12:50:57.808429  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3150>
+I0926 12:50:57.810431  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3200>
+I0926 12:50:57.812433  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3250>
+I0926 12:50:57.814434  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3300>
+I0926 12:50:57.817436  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3350>
+I0926 12:50:57.819453  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3400>
+I0926 12:50:57.821439  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3450>
+I0926 12:50:57.825441  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3500>
+I0926 12:50:57.827443  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-C-3550>
+I0926 12:50:57.829444  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2250>
+I0926 12:50:57.832464  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2300>
+I0926 12:50:57.834450  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2350>
+I0926 12:50:57.837460  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2400>
+I0926 12:50:57.839450  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2450>
+I0926 12:50:57.841471  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2500>
+I0926 12:50:57.844470  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2550>
+I0926 12:50:57.846470  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2600>
+I0926 12:50:57.848474  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2650>
+I0926 12:50:57.850474  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2700>
+I0926 12:50:57.853461  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2750>
+I0926 12:50:57.856467  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2800>
+I0926 12:50:57.858465  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2850>
+I0926 12:50:57.861485  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2900>
+I0926 12:50:57.863487  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-2950>
+I0926 12:50:57.865470  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3000>
+I0926 12:50:57.867471  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3050>
+I0926 12:50:57.869472  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3100>
+I0926 12:50:57.872474  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3150>
+I0926 12:50:57.874476  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3200>
+I0926 12:50:57.876477  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3250>
+I0926 12:50:57.878479  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3300>
+I0926 12:50:57.881481  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3500>
+I0926 12:50:57.883482  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1703-P-3550>
+I0926 12:50:57.885484  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2500>
+I0926 12:50:57.887485  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2550>
+I0926 12:50:57.889487  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2600>
+I0926 12:50:57.891487  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2650>
+I0926 12:50:57.894490  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2700>
+I0926 12:50:57.896492  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2750>
+I0926 12:50:57.898494  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2800>
+I0926 12:50:57.900495  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2850>
+I0926 12:50:57.902495  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2900>
+I0926 12:50:57.904497  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-2950>
+I0926 12:50:57.906498  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-3000>
+I0926 12:50:57.908499  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-C-3050>
+I0926 12:50:57.910501  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2500>
+I0926 12:50:57.912503  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2550>
+I0926 12:50:57.915505  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2600>
+I0926 12:50:57.917506  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2650>
+I0926 12:50:57.919508  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2700>
+I0926 12:50:57.922511  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2750>
+I0926 12:50:57.924512  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2800>
+I0926 12:50:57.926512  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2850>
+I0926 12:50:57.928514  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2900>
+I0926 12:50:57.931516  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-2950>
+I0926 12:50:57.934518  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-3000>
+I0926 12:50:57.936520  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1707-P-3050>
+I0926 12:50:57.938521  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2500>
+I0926 12:50:57.940522  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2550>
+I0926 12:50:57.942524  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2600>
+I0926 12:50:57.944525  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2650>
+I0926 12:50:57.947528  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2700>
+I0926 12:50:57.949529  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2750>
+I0926 12:50:57.951530  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2800>
+I0926 12:50:57.954532  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2850>
+I0926 12:50:57.957535  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2900>
+I0926 12:50:57.959535  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-2950>
+I0926 12:50:57.962538  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-3000>
+I0926 12:50:57.965539  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-3050>
+I0926 12:50:57.968541  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-C-3100>
+I0926 12:50:57.970543  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2500>
+I0926 12:50:57.972544  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2550>
+I0926 12:50:57.974546  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2600>
+I0926 12:50:57.976567  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2650>
+I0926 12:50:57.979569  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2700>
+I0926 12:50:57.981570  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2750>
+I0926 12:50:57.983572  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2800>
+I0926 12:50:57.986572  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2850>
+I0926 12:50:57.988571  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2900>
+I0926 12:50:57.990558  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-2950>
+I0926 12:50:57.992560  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-3000>
+I0926 12:50:57.995563  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-3050>
+I0926 12:50:57.998564  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1708-P-3100>
+I0926 12:50:58.000579  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2550>
+I0926 12:50:58.002581  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2600>
+I0926 12:50:58.005569  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2650>
+I0926 12:50:58.007586  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2700>
+I0926 12:50:58.010588  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2750>
+I0926 12:50:58.012574  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2800>
+I0926 12:50:58.014575  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2850>
+I0926 12:50:58.016577  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2900>
+I0926 12:50:58.018579  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-C-2950>
+I0926 12:50:58.020579  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2550>
+I0926 12:50:58.022581  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2600>
+I0926 12:50:58.025583  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2650>
+I0926 12:50:58.028586  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2700>
+I0926 12:50:58.030587  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2750>
+I0926 12:50:58.032588  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2800>
+I0926 12:50:58.035607  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2850>
+I0926 12:50:58.037592  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2900>
+I0926 12:50:58.039609  6252 MdSpi.cpp:144] OnRspSubMarketData | 订阅：<m1709-P-2950>
+I0926 12:50:58.043596  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2200>
+I0926 12:50:58.045614  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2250>
+I0926 12:50:58.048615  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2300>
+I0926 12:50:58.051618  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2350>
+I0926 12:50:58.053612  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2400>
+I0926 12:50:58.056605  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2450>
+I0926 12:50:58.059607  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2500>
+I0926 12:50:58.062609  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2550>
+I0926 12:50:58.065610  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2600>
+I0926 12:50:58.067612  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2650>
+I0926 12:50:58.070614  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2700>
+I0926 12:50:58.072616  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2750>
+I0926 12:50:58.075618  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2800>
+I0926 12:50:58.078620  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2850>
+I0926 12:50:58.080641  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2900>
+I0926 12:50:58.083642  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-2950>
+I0926 12:50:58.086627  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3000>
+I0926 12:50:58.089654  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3050>
+I0926 12:50:58.092644  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3100>
+I0926 12:50:58.095646  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3150>
+I0926 12:50:58.098639  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3200>
+I0926 12:50:58.100636  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3250>
+I0926 12:50:58.103638  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3300>
+I0926 12:50:58.106640  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3350>
+I0926 12:50:58.109642  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3400>
+I0926 12:50:58.111644  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3450>
+I0926 12:50:58.114645  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3500>
+I0926 12:50:58.116647  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3550>
+I0926 12:50:58.119649  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3600>
+I0926 12:50:58.121651  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3650>
+I0926 12:50:58.124653  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-C-3700>
+I0926 12:50:58.126655  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2200>
+I0926 12:50:58.129657  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2250>
+I0926 12:50:58.131659  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2300>
+I0926 12:50:58.134661  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2350>
+I0926 12:50:58.137661  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2400>
+I0926 12:50:58.140663  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2450>
+I0926 12:50:58.144668  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2500>
+I0926 12:50:58.147670  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2550>
+I0926 12:50:58.150672  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2600>
+I0926 12:50:58.153673  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2650>
+I0926 12:50:58.155675  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2700>
+I0926 12:50:58.158677  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2750>
+I0926 12:50:58.160678  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2800>
+I0926 12:50:58.163698  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2850>
+I0926 12:50:58.166682  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2900>
+I0926 12:50:58.169684  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-2950>
+I0926 12:50:58.172686  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3000>
+I0926 12:50:58.174688  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3050>
+I0926 12:50:58.177690  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3100>
+I0926 12:50:58.179692  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3150>
+I0926 12:50:58.182693  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3200>
+I0926 12:50:58.185708  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3250>
+I0926 12:50:58.188715  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3300>
+I0926 12:50:58.190699  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3350>
+I0926 12:50:58.193717  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3400>
+I0926 12:50:58.196718  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3450>
+I0926 12:50:58.199723  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3500>
+I0926 12:50:58.202708  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3550>
+I0926 12:50:58.205710  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3600>
+I0926 12:50:58.207711  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3650>
+I0926 12:50:58.210713  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1612-P-3700>
+I0926 12:50:58.212715  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2250>
+I0926 12:50:58.215718  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2300>
+I0926 12:50:58.218719  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2350>
+I0926 12:50:58.220721  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2400>
+I0926 12:50:58.223722  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2450>
+I0926 12:50:58.225723  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2500>
+I0926 12:50:58.228726  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2550>
+I0926 12:50:58.231747  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2600>
+I0926 12:50:58.233747  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2650>
+I0926 12:50:58.236732  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2700>
+I0926 12:50:58.239753  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2750>
+I0926 12:50:58.241755  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2800>
+I0926 12:50:58.244738  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2850>
+I0926 12:50:58.247759  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2900>
+I0926 12:50:58.249759  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-2950>
+I0926 12:50:58.252760  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3000>
+I0926 12:50:58.255746  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3050>
+I0926 12:50:58.258764  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3100>
+I0926 12:50:58.260749  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3150>
+I0926 12:50:58.264752  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3200>
+I0926 12:50:58.266753  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3250>
+I0926 12:50:58.269757  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3300>
+I0926 12:50:58.271757  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3350>
+I0926 12:50:58.274760  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3400>
+I0926 12:50:58.276759  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3450>
+I0926 12:50:58.279762  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3500>
+I0926 12:50:58.282765  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-C-3550>
+I0926 12:50:58.285768  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2250>
+I0926 12:50:58.287768  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2300>
+I0926 12:50:58.290771  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2350>
+I0926 12:50:58.293776  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2400>
+I0926 12:50:58.296774  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2450>
+I0926 12:50:58.298776  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2500>
+I0926 12:50:58.301779  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2550>
+I0926 12:50:58.303779  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2600>
+I0926 12:50:58.306782  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2650>
+I0926 12:50:58.309784  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2700>
+I0926 12:50:58.311785  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2750>
+I0926 12:50:58.314788  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2800>
+I0926 12:50:58.316788  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2850>
+I0926 12:50:58.318790  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2900>
+I0926 12:50:58.321792  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-2950>
+I0926 12:50:58.324795  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3000>
+I0926 12:50:58.326797  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3050>
+I0926 12:50:58.329815  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3100>
+I0926 12:50:58.332819  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3150>
+I0926 12:50:58.335803  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3200>
+I0926 12:50:58.337803  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3250>
+I0926 12:50:58.340806  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3300>
+I0926 12:50:58.343827  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3500>
+I0926 12:50:58.345826  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1703-P-3550>
+I0926 12:50:58.347829  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2500>
+I0926 12:50:58.350831  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2550>
+I0926 12:50:58.353814  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2600>
+I0926 12:50:58.355818  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2650>
+I0926 12:50:58.357817  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2700>
+I0926 12:50:58.360821  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2750>
+I0926 12:50:58.362823  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2800>
+I0926 12:50:58.365824  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2850>
+I0926 12:50:58.367825  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2900>
+I0926 12:50:58.370844  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-2950>
+I0926 12:50:58.372846  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-3000>
+I0926 12:50:58.375829  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-C-3050>
+I0926 12:50:58.377831  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2500>
+I0926 12:50:58.380833  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2550>
+I0926 12:50:58.382853  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2600>
+I0926 12:50:58.385855  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2650>
+I0926 12:50:58.388839  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2700>
+I0926 12:50:58.390841  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2750>
+I0926 12:50:58.393842  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2800>
+I0926 12:50:58.395864  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2850>
+I0926 12:50:58.397864  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2900>
+I0926 12:50:58.400866  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-2950>
+I0926 12:50:58.403852  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-3000>
+I0926 12:50:58.406867  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1707-P-3050>
+I0926 12:50:58.408870  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2500>
+I0926 12:50:58.411870  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2550>
+I0926 12:50:58.414857  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2600>
+I0926 12:50:58.416879  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2650>
+I0926 12:50:58.419880  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2700>
+I0926 12:50:58.422864  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2750>
+I0926 12:50:58.425866  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2800>
+I0926 12:50:58.427867  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2850>
+I0926 12:50:58.430869  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2900>
+I0926 12:50:58.433871  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-2950>
+I0926 12:50:58.436906  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-3000>
+I0926 12:50:58.439893  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-3050>
+I0926 12:50:58.442879  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-C-3100>
+I0926 12:50:58.444880  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2500>
+I0926 12:50:58.447882  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2550>
+I0926 12:50:58.450898  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2600>
+I0926 12:50:58.453886  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2650>
+I0926 12:50:58.456888  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2700>
+I0926 12:50:58.460891  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2750>
+I0926 12:50:58.463892  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2800>
+I0926 12:50:58.465894  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2850>
+I0926 12:50:58.468896  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2900>
+I0926 12:50:58.470897  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-2950>
+I0926 12:50:58.473899  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-3000>
+I0926 12:50:58.476902  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-3050>
+I0926 12:50:58.479905  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1708-P-3100>
+I0926 12:50:58.482908  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2550>
+I0926 12:50:58.485909  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2600>
+I0926 12:50:58.488924  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2650>
+I0926 12:50:58.490929  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2700>
+I0926 12:50:58.493914  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2750>
+I0926 12:50:58.497916  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2800>
+I0926 12:50:58.500919  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2850>
+I0926 12:50:58.504921  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2900>
+I0926 12:50:58.506924  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-C-2950>
+I0926 12:50:58.509925  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2550>
+I0926 12:50:58.512928  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2600>
+I0926 12:50:58.515929  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2650>
+I0926 12:50:58.518932  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2700>
+I0926 12:50:58.520951  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2750>
+I0926 12:50:58.523934  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2800>
+I0926 12:50:58.527940  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2850>
+I0926 12:50:58.530941  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2900>
+I0926 12:50:58.533946  6252 MdSpi.cpp:151] OnRspSubForQuoteRsp | 订阅询价：<m1709-P-2950>
+I0926 12:50:58.683048  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-2150>|方向(2.多3.空):3|持仓:3621|多头冻结：88|空头冻结：0
+I0926 12:50:58.690052  3972 TraderSpi.cpp:285] <持仓>|合约<m1707-C-2600>|方向(2.多3.空):2|持仓:3|多头冻结：0|空头冻结：0
+I0926 12:50:58.696056  3972 TraderSpi.cpp:285] <持仓>|合约<m1707-C-2600>|方向(2.多3.空):3|持仓:1|多头冻结：0|空头冻结：0
+I0926 12:50:58.703061  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3500>|方向(2.多3.空):2|持仓:10|多头冻结：0|空头冻结：0
+I0926 12:50:58.711067  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-3100>|方向(2.多3.空):3|持仓:27|多头冻结：27|空头冻结：0
+I0926 12:50:58.749094  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-3000>|方向(2.多3.空):3|持仓:99|多头冻结：99|空头冻结：0
+I0926 12:50:58.760102  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2950>|方向(2.多3.空):3|持仓:127|多头冻结：127|空头冻结：0
+I0926 12:50:58.769109  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2900>|方向(2.多3.空):3|持仓:88|多头冻结：88|空头冻结：0
+I0926 12:50:58.779115  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2850>|方向(2.多3.空):3|持仓:25|多头冻结：25|空头冻结：0
+I0926 12:50:58.788121  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2800>|方向(2.多3.空):3|持仓:10|多头冻结：10|空头冻结：0
+I0926 12:50:58.799129  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2750>|方向(2.多3.空):3|持仓:40|多头冻结：40|空头冻结：0
+I0926 12:50:58.808136  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2750>|方向(2.多3.空):2|持仓:8|多头冻结：0|空头冻结：8
+I0926 12:50:58.817142  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2650>|方向(2.多3.空):3|持仓:70|多头冻结：70|空头冻结：0
+I0926 12:50:58.827149  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2550>|方向(2.多3.空):2|持仓:126|多头冻结：0|空头冻结：126
+I0926 12:50:58.837157  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2500>|方向(2.多3.空):2|持仓:143|多头冻结：0|空头冻结：143
+I0926 12:50:58.847163  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-P-2450>|方向(2.多3.空):3|持仓:44|多头冻结：44|空头冻结：0
+I0926 12:50:58.878185  3972 TraderSpi.cpp:285] <持仓>|合约<m1708-C-3100>|方向(2.多3.空):2|持仓:100|多头冻结：0|空头冻结：100
+I0926 12:50:58.888192  3972 TraderSpi.cpp:285] <持仓>|合约<m1707-P-2800>|方向(2.多3.空):3|持仓:3|多头冻结：0|空头冻结：0
+I0926 12:50:58.893196  3972 TraderSpi.cpp:285] <持仓>|合约<m1707-P-2800>|方向(2.多3.空):2|持仓:3|多头冻结：0|空头冻结：0
+I0926 12:50:58.901202  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-3400>|方向(2.多3.空):2|持仓:23|多头冻结：0|空头冻结：23
+I0926 12:50:58.907207  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-3350>|方向(2.多3.空):3|持仓:33|多头冻结：33|空头冻结：0
+I0926 12:50:58.914211  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-3150>|方向(2.多3.空):3|持仓:160|多头冻结：160|空头冻结：0
+I0926 12:50:58.921216  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-3050>|方向(2.多3.空):3|持仓:77|多头冻结：77|空头冻结：0
+I0926 12:50:58.927220  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-3000>|方向(2.多3.空):2|持仓:14|多头冻结：0|空头冻结：14
+I0926 12:50:58.934226  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-2750>|方向(2.多3.空):3|持仓:35|多头冻结：35|空头冻结：0
+I0926 12:50:58.940229  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-2650>|方向(2.多3.空):3|持仓:25|多头冻结：25|空头冻结：0
+I0926 12:50:58.947234  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-2550>|方向(2.多3.空):3|持仓:361|多头冻结：95|空头冻结：0
+I0926 12:50:58.953238  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-P-2450>|方向(2.多3.空):3|持仓:125|多头冻结：10|空头冻结：0
+I0926 12:50:58.959242  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3450>|方向(2.多3.空):3|持仓:70|多头冻结：0|空头冻结：0
+I0926 12:50:58.965247  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3450>|方向(2.多3.空):2|持仓:18|多头冻结：0|空头冻结：3
+I0926 12:50:58.971251  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3400>|方向(2.多3.空):2|持仓:163|多头冻结：0|空头冻结：63
+I0926 12:50:58.977257  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3350>|方向(2.多3.空):2|持仓:195|多头冻结：0|空头冻结：73
+I0926 12:50:58.983259  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3300>|方向(2.多3.空):2|持仓:155|多头冻结：0|空头冻结：65
+I0926 12:50:58.989264  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3250>|方向(2.多3.空):2|持仓:194|多头冻结：0|空头冻结：84
+I0926 12:50:58.996270  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3200>|方向(2.多3.空):2|持仓:100|多头冻结：0|空头冻结：91
+I0926 12:50:59.002274  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3150>|方向(2.多3.空):2|持仓:248|多头冻结：0|空头冻结：95
+I0926 12:50:59.008278  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3100>|方向(2.多3.空):2|持仓:325|多头冻结：0|空头冻结：89
+I0926 12:50:59.015283  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3050>|方向(2.多3.空):2|持仓:215|多头冻结：0|空头冻结：119
+I0926 12:50:59.021288  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-3000>|方向(2.多3.空):2|持仓:125|多头冻结：0|空头冻结：32
+I0926 12:50:59.028291  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-2950>|方向(2.多3.空):2|持仓:18|多头冻结：0|空头冻结：18
+I0926 12:50:59.037298  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-2800>|方向(2.多3.空):2|持仓:143|多头冻结：0|空头冻结：88
+I0926 12:50:59.047305  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-2700>|方向(2.多3.空):3|持仓:127|多头冻结：0|空头冻结：0
+I0926 12:50:59.057312  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-2600>|方向(2.多3.空):2|持仓:68|多头冻结：0|空头冻结：68
+I0926 12:50:59.066318  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-2500>|方向(2.多3.空):2|持仓:58|多头冻结：0|空头冻结：58
+I0926 12:50:59.076325  3972 TraderSpi.cpp:285] <持仓>|合约<m1705-C-2450>|方向(2.多3.空):2|持仓:85|多头冻结：0|空头冻结：0
+I0926 12:50:59.085332  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-P-2300>|方向(2.多3.空):3|持仓:52|多头冻结：0|空头冻结：0
+I0926 12:50:59.093338  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-P-2250>|方向(2.多3.空):3|持仓:52|多头冻结：0|空头冻结：0
+I0926 12:50:59.098341  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3550>|方向(2.多3.空):3|持仓:54|多头冻结：0|空头冻结：0
+I0926 12:50:59.104346  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3500>|方向(2.多3.空):3|持仓:39|多头冻结：0|空头冻结：0
+I0926 12:50:59.109349  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3450>|方向(2.多3.空):3|持仓:53|多头冻结：0|空头冻结：0
+I0926 12:50:59.115353  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3400>|方向(2.多3.空):3|持仓:46|多头冻结：0|空头冻结：0
+I0926 12:50:59.120357  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3350>|方向(2.多3.空):3|持仓:51|多头冻结：0|空头冻结：0
+I0926 12:50:59.127362  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3300>|方向(2.多3.空):3|持仓:53|多头冻结：0|空头冻结：0
+I0926 12:50:59.132365  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3250>|方向(2.多3.空):3|持仓:49|多头冻结：0|空头冻结：0
+I0926 12:50:59.138370  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3200>|方向(2.多3.空):3|持仓:42|多头冻结：0|空头冻结：0
+I0926 12:50:59.144402  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3150>|方向(2.多3.空):3|持仓:55|多头冻结：0|空头冻结：0
+I0926 12:50:59.152379  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3100>|方向(2.多3.空):3|持仓:37|多头冻结：0|空头冻结：0
+I0926 12:50:59.158401  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3050>|方向(2.多3.空):3|持仓:53|多头冻结：0|空头冻结：0
+I0926 12:50:59.164388  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-3000>|方向(2.多3.空):3|持仓:41|多头冻结：0|空头冻结：0
+I0926 12:50:59.171392  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2950>|方向(2.多3.空):3|持仓:36|多头冻结：0|空头冻结：0
+I0926 12:50:59.177397  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2900>|方向(2.多3.空):3|持仓:32|多头冻结：0|空头冻结：0
+I0926 12:50:59.183418  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2850>|方向(2.多3.空):3|持仓:42|多头冻结：0|空头冻结：0
+I0926 12:50:59.189424  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2800>|方向(2.多3.空):3|持仓:51|多头冻结：0|空头冻结：0
+I0926 12:50:59.195430  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2750>|方向(2.多3.空):3|持仓:51|多头冻结：0|空头冻结：0
+I0926 12:50:59.202415  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2700>|方向(2.多3.空):3|持仓:47|多头冻结：0|空头冻结：0
+I0926 12:50:59.209419  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2650>|方向(2.多3.空):3|持仓:53|多头冻结：0|空头冻结：0
+I0926 12:50:59.215425  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2600>|方向(2.多3.空):3|持仓:16|多头冻结：0|空头冻结：0
+I0926 12:50:59.221446  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2600>|方向(2.多3.空):2|持仓:15|多头冻结：0|空头冻结：0
+I0926 12:50:59.228451  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2550>|方向(2.多3.空):3|持仓:34|多头冻结：0|空头冻结：0
+I0926 12:50:59.234437  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2500>|方向(2.多3.空):3|持仓:12|多头冻结：0|空头冻结：0
+I0926 12:50:59.242451  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2450>|方向(2.多3.空):2|持仓:19|多头冻结：0|空头冻结：0
+I0926 12:50:59.248448  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2400>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.254452  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2350>|方向(2.多3.空):3|持仓:1|多头冻结：0|空头冻结：0
+I0926 12:50:59.261458  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2350>|方向(2.多3.空):2|持仓:2|多头冻结：0|空头冻结：0
+I0926 12:50:59.266460  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2300>|方向(2.多3.空):2|持仓:34|多头冻结：0|空头冻结：0
+I0926 12:50:59.272464  3972 TraderSpi.cpp:285] <持仓>|合约<m1703-C-2250>|方向(2.多3.空):2|持仓:30|多头冻结：0|空头冻结：0
+I0926 12:50:59.279470  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-3650>|方向(2.多3.空):2|持仓:13|多头冻结：0|空头冻结：0
+I0926 12:50:59.285486  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-3600>|方向(2.多3.空):3|持仓:1|多头冻结：0|空头冻结：0
+I0926 12:50:59.292479  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-3600>|方向(2.多3.空):2|持仓:4|多头冻结：0|空头冻结：0
+I0926 12:50:59.299494  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-3300>|方向(2.多3.空):2|持仓:7|多头冻结：0|空头冻结：0
+I0926 12:50:59.304488  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-3250>|方向(2.多3.空):2|持仓:21|多头冻结：0|空头冻结：0
+I0926 12:50:59.312494  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-3150>|方向(2.多3.空):3|持仓:43|多头冻结：0|空头冻结：0
+I0926 12:50:59.317515  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2850>|方向(2.多3.空):3|持仓:33|多头冻结：0|空头冻结：0
+I0926 12:50:59.323501  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2850>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.329524  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2800>|方向(2.多3.空):3|持仓:6|多头冻结：0|空头冻结：0
+I0926 12:50:59.335527  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2800>|方向(2.多3.空):2|持仓:37|多头冻结：0|空头冻结：0
+I0926 12:50:59.342530  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2750>|方向(2.多3.空):3|持仓:32|多头冻结：0|空头冻结：0
+I0926 12:50:59.348518  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2750>|方向(2.多3.空):2|持仓:3|多头冻结：0|空头冻结：0
+I0926 12:50:59.354522  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2700>|方向(2.多3.空):3|持仓:39|多头冻结：0|空头冻结：0
+I0926 12:50:59.361546  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2700>|方向(2.多3.空):2|持仓:7|多头冻结：0|空头冻结：0
+I0926 12:50:59.367532  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2650>|方向(2.多3.空):3|持仓:30|多头冻结：0|空头冻结：0
+I0926 12:50:59.373536  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2650>|方向(2.多3.空):2|持仓:83|多头冻结：0|空头冻结：0
+I0926 12:50:59.379540  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2600>|方向(2.多3.空):3|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.385546  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2550>|方向(2.多3.空):3|持仓:21|多头冻结：0|空头冻结：0
+I0926 12:50:59.391549  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2500>|方向(2.多3.空):3|持仓:38|多头冻结：0|空头冻结：0
+I0926 12:50:59.397570  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2450>|方向(2.多3.空):3|持仓:28|多头冻结：0|空头冻结：0
+I0926 12:50:59.403558  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2450>|方向(2.多3.空):2|持仓:23|多头冻结：0|空头冻结：0
+I0926 12:50:59.409561  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2400>|方向(2.多3.空):3|持仓:25|多头冻结：0|空头冻结：0
+I0926 12:50:59.415585  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2350>|方向(2.多3.空):3|持仓:17|多头冻结：0|空头冻结：0
+I0926 12:50:59.421571  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2300>|方向(2.多3.空):3|持仓:100|多头冻结：0|空头冻结：0
+I0926 12:50:59.427575  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2250>|方向(2.多3.空):3|持仓:26|多头冻结：0|空头冻结：0
+I0926 12:50:59.433579  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-P-2200>|方向(2.多3.空):2|持仓:18|多头冻结：0|空头冻结：0
+I0926 12:50:59.439584  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3600>|方向(2.多3.空):3|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.445587  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3600>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.451591  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3550>|方向(2.多3.空):3|持仓:10|多头冻结：0|空头冻结：0
+I0926 12:50:59.457613  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3550>|方向(2.多3.空):2|持仓:98|多头冻结：0|空头冻结：0
+I0926 12:50:59.463618  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3500>|方向(2.多3.空):3|持仓:13|多头冻结：0|空头冻结：0
+I0926 12:50:59.469605  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3500>|方向(2.多3.空):2|持仓:39|多头冻结：0|空头冻结：0
+I0926 12:50:59.475610  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3450>|方向(2.多3.空):3|持仓:70|多头冻结：0|空头冻结：0
+I0926 12:50:59.482614  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3450>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.488618  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3400>|方向(2.多3.空):3|持仓:56|多头冻结：0|空头冻结：0
+I0926 12:50:59.494621  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3400>|方向(2.多3.空):2|持仓:67|多头冻结：0|空头冻结：0
+I0926 12:50:59.500628  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3350>|方向(2.多3.空):3|持仓:41|多头冻结：0|空头冻结：0
+I0926 12:50:59.507632  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3350>|方向(2.多3.空):2|持仓:3|多头冻结：0|空头冻结：0
+I0926 12:50:59.514636  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3300>|方向(2.多3.空):2|持仓:21|多头冻结：0|空头冻结：0
+I0926 12:50:59.521641  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3250>|方向(2.多3.空):3|持仓:33|多头冻结：0|空头冻结：0
+I0926 12:50:59.528646  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-3250>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.534651  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-2900>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.540671  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-2850>|方向(2.多3.空):3|持仓:54|多头冻结：0|空头冻结：0
+I0926 12:50:59.547667  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-2800>|方向(2.多3.空):2|持仓:9|多头冻结：0|空头冻结：0
+I0926 12:50:59.553663  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-2350>|方向(2.多3.空):3|持仓:22|多头冻结：0|空头冻结：0
+I0926 12:50:59.560669  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-2350>|方向(2.多3.空):2|持仓:20|多头冻结：0|空头冻结：0
+I0926 12:50:59.566690  3972 TraderSpi.cpp:285] <持仓>|合约<m1701-C-2200>|方向(2.多3.空):3|持仓:300|多头冻结：0|空头冻结：0
+I0926 12:50:59.572677  3972 TraderSpi.cpp:285] <持仓>|合约<m1612-P-2900>|方向(2.多3.空):3|持仓:323|多头冻结：28|空头冻结：0
+I0926 12:50:59.579684  3972 TraderSpi.cpp:285] <持仓>|合约<m1612-P-2850>|方向(2.多3.空):3|持仓:39|多头冻结：0|空头冻结：0
+I0926 12:50:59.586688  3972 TraderSpi.cpp:285] <持仓>|合约<m1612-P-2700>|方向(2.多3.空):3|持仓:3|多头冻结：3|空头冻结：0
+I0926 12:50:59.593696  3972 TraderSpi.cpp:285] <持仓>|合约<m1612-P-2650>|方向(2.多3.空):3|持仓:42|多头冻结：42|空头冻结：0
+I0926 12:50:59.599695  3972 TraderSpi.cpp:285] <持仓>|合约<m1612-C-3400>|方向(2.多3.空):3|持仓:426|多头冻结：0|空头冻结：0
+I0926 12:50:59.605720  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-3200>|方向(2.多3.空):2|持仓:1|多头冻结：0|空头冻结：0
+I0926 12:50:59.612723  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2650>|方向(2.多3.空):3|持仓:140|多头冻结：0|空头冻结：0
+I0926 12:50:59.618724  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2600>|方向(2.多3.空):3|持仓:573|多头冻结：0|空头冻结：0
+I0926 12:50:59.625715  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2550>|方向(2.多3.空):3|持仓:102|多头冻结：0|空头冻结：0
+I0926 12:50:59.632719  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2500>|方向(2.多3.空):3|持仓:810|多头冻结：0|空头冻结：0
+I0926 12:50:59.638725  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2400>|方向(2.多3.空):3|持仓:3|多头冻结：0|空头冻结：0
+I0926 12:50:59.645730  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2350>|方向(2.多3.空):3|持仓:53|多头冻结：0|空头冻结：0
+I0926 12:50:59.651733  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2300>|方向(2.多3.空):3|持仓:117|多头冻结：0|空头冻结：0
+I0926 12:50:59.658738  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2250>|方向(2.多3.空):3|持仓:639|多头冻结：0|空头冻结：0
+I0926 12:50:59.664742  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2200>|方向(2.多3.空):3|持仓:705|多头冻结：0|空头冻结：0
+I0926 12:50:59.672749  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-P-2150>|方向(2.多3.空):3|持仓:583|多头冻结：0|空头冻结：0
+I0926 12:50:59.679752  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3650>|方向(2.多3.空):3|持仓:3424|多头冻结：0|空头冻结：0
+I0926 12:50:59.685775  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3600>|方向(2.多3.空):3|持仓:105|多头冻结：0|空头冻结：0
+I0926 12:50:59.692780  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3450>|方向(2.多3.空):3|持仓:899|多头冻结：25|空头冻结：0
+I0926 12:50:59.699785  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3400>|方向(2.多3.空):3|持仓:435|多头冻结：32|空头冻结：0
+I0926 12:50:59.706773  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3350>|方向(2.多3.空):3|持仓:1162|多头冻结：35|空头冻结：0
+I0926 12:50:59.712777  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3300>|方向(2.多3.空):3|持仓:494|多头冻结：0|空头冻结：0
+I0926 12:50:59.718796  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3250>|方向(2.多3.空):3|持仓:86|多头冻结：0|空头冻结：0
+I0926 12:50:59.724802  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3200>|方向(2.多3.空):3|持仓:606|多头冻结：0|空头冻结：0
+I0926 12:50:59.730790  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3150>|方向(2.多3.空):3|持仓:288|多头冻结：0|空头冻结：0
+I0926 12:50:59.736794  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3100>|方向(2.多3.空):3|持仓:712|多头冻结：0|空头冻结：0
+I0926 12:50:59.743799  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3050>|方向(2.多3.空):3|持仓:609|多头冻结：0|空头冻结：0
+I0926 12:50:59.750802  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-3000>|方向(2.多3.空):3|持仓:1173|多头冻结：0|空头冻结：0
+I0926 12:50:59.758808  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-2400>|方向(2.多3.空):3|持仓:948|多头冻结：77|空头冻结：0
+I0926 12:50:59.765815  3972 TraderSpi.cpp:285] <持仓>|合约<m1611-C-2200>|方向(2.多3.空):3|持仓:1117|多头冻结：88|空头冻结：0

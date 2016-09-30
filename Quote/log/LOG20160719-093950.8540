@@ -1,0 +1,9 @@
+Log file created at: 2016/07/19 09:39:50
+Running on machine: AIDEN
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0719 09:39:50.299201  7736 MdSpi.cpp:32] --->>> OnFrontConnected
+I0719 09:39:50.302213  7736 MdSpi.cpp:47] --->>> 发送用户登录请求: 成功
+I0719 09:39:50.310210  7736 MdSpi.cpp:54] --->>> OnRspUserLogin
+I0719 09:39:50.310210  7736 MdSpi.cpp:229] --->>> ErrorID=0, ErrorMsg=CTP:No Error
+I0719 09:39:50.311210  7736 MdSpi.cpp:60] --->>> 获取当前交易日 = 20160719
+I0719 09:39:50.331225  1208 TraderSpi.cpp:1011] --->>> ErrorID=3, ErrorMsg=CTP:不合法的登录

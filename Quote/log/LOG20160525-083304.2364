@@ -1,0 +1,9 @@
+Log file created at: 2016/05/25 08:33:04
+Running on machine: AIDEN
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0525 08:33:04.489939 13488 MdSpi.cpp:32] --->>> OnFrontConnected
+I0525 08:33:04.489939 13488 MdSpi.cpp:47] --->>> 发送用户登录请求: 成功
+I0525 08:33:04.505565 13488 MdSpi.cpp:54] --->>> OnRspUserLogin
+I0525 08:33:04.505565 13488 MdSpi.cpp:229] --->>> ErrorID=0, ErrorMsg=CTP:No Error
+I0525 08:33:04.505565 13488 MdSpi.cpp:60] --->>> 获取当前交易日 = 20160525
+I0525 08:33:05.574323 14060 TraderSpi.cpp:281] <持仓>|合约<IF1606>|方向(2.多3.空):3|持仓:1|多头冻结：0|空头冻结：0
