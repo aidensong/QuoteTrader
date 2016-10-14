@@ -134,21 +134,21 @@ void CMdSpi::SubscribeForQuoteRsp()
 	int iResult = pMDUserApi->SubscribeForQuoteRsp(pInstId, len);
 	
 	cerr << "--->>> SubscribeForQuoteRsp: " << ((iResult == 0) ? "Success" : "Fail") << endl;
-	LOG(INFO) << "--->>> SubscribeForQuoteRsp: " << ((iResult == 0) ? "Success" : "Fail") << endl;
+	LOG(WARNING) << "--->>> SubscribeForQuoteRsp: " << ((iResult == 0) ? "Success" : "Fail") << endl;
 }
 
 void CMdSpi::OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
 	
   cerr << "[OnRspSubMarketData]|<" << pSpecificInstrument ->InstrumentID<< ">" << endl;
-  LOG(INFO) << "[OnRspSubMarketData]|<" << pSpecificInstrument->InstrumentID << ">" << endl;
+  LOG(INFO)  << "[OnRspSubMarketData]|<" << pSpecificInstrument->InstrumentID << ">" << endl;
 
 }
 
 void CMdSpi::OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
 	cerr << "[OnRspSubForQuoteRsp]|<" << pSpecificInstrument->InstrumentID << ">" << endl;
-	LOG(INFO) << "[OnRspSubForQuoteRsp]|<" << pSpecificInstrument->InstrumentID << ">" << endl;
+	LOG(WARNING) << "[OnRspSubForQuoteRsp]|<" << pSpecificInstrument->InstrumentID << ">" << endl;
 }
 
 void CMdSpi::OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
@@ -253,7 +253,7 @@ void CMdSpi::OnRtnForQuoteRsp(CThostFtdcForQuoteRspField *pForQuoteRsp)
 	cerr      << "[OnRtnForQuoteRsp]" << "Inst:" << pForQuoteRsp->InstrumentID << "|TIME:" << pForQuoteRsp->ForQuoteTime << "|ForQuoteSysID:" << pForQuoteRsp->ForQuoteSysID
 		<< "|ExchangeID:" << pForQuoteRsp->ExchangeID<< endl;	
 	
-	LOG(INFO) << "[OnRtnForQuoteRsp]" << "Inst:" << pForQuoteRsp->InstrumentID << "|TIME:" << pForQuoteRsp->ForQuoteTime << "|ForQuoteSysID:" << pForQuoteRsp->ForQuoteSysID
+	LOG(WARNING) << "[OnRtnForQuoteRsp]" << "Inst:" << pForQuoteRsp->InstrumentID << "|TIME:" << pForQuoteRsp->ForQuoteTime << "|ForQuoteSysID:" << pForQuoteRsp->ForQuoteSysID
 		<< "|ExchangeID:" << pForQuoteRsp->ExchangeID << endl;
 }
 
