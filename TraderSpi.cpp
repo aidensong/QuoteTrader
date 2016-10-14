@@ -174,8 +174,8 @@ void CTraderSpi::OnRspQryTradingAccount(CThostFtdcTradingAccountField *pTradingA
 	if (bIsLast && !IsErrorRspInfo(pRspInfo))
 	{
 		//请求查询投资者委托
-		//ReqQryInvestorPosition();		
-		 ReqQryOrder();
+		ReqQryInvestorPosition();		
+		 //ReqQryOrder();
 	}
 }
 
@@ -206,28 +206,37 @@ void CTraderSpi::OnRspQryOrder(CThostFtdcOrderField *pOrder, CThostFtdcRspInfoFi
 	//cerr << "--->>> " << "OnRspQryOrder" << endl;
 	if (!IsErrorRspInfo(pRspInfo))
 	{  
-		if (pOrder!=nullptr)
+		if (pOrder != nullptr&&pOrder->OrderStatus != THOST_FTDC_OST_AllTraded&&pOrder->OrderStatus != THOST_FTDC_OST_Canceled)
 		{//更新委托列表
 			g_lockqueue.lock();			
 			//过滤委托
 			//if ((FRONT_ID == pOrder->FrontID) && SESSION_ID == pOrder->SessionID) 
 			//{
-				OrderMap[pOrder->OrderRef] = *pOrder;				
-				cerr << "[Order]|OrderSysID:" << pOrder->OrderSysID << "|<" << pOrder->InstrumentID
+			stringstream ss;
+			ss << pOrder->FrontID;
+			string FrontID = ss.str();
+			
+			ss.clear();
+			ss << pOrder->SessionID;
+			string SessionID = ss.str();			
+			OrderMap[FrontID+"_"+SessionID + "_" + string(pOrder->OrderRef)] = *pOrder;
+			cerr << "[Order]|OrderID:" << FrontID + "_" + SessionID + "_" + string(pOrder->OrderRef) << "|<" << pOrder->InstrumentID
 					<< ">|(Bid 0 Ask 1):" << pOrder->Direction 
+					<< "|CombOffsetFlag:" << pOrder->CombOffsetFlag
 					<< "|VolumeTotalOriginal:" << pOrder->VolumeTotalOriginal
 					<< "|VolumeTotal:" << pOrder->VolumeTotal
 					<< "|VolumeTraded:" << pOrder->VolumeTraded					
 					<< "|LimitPrice:" << pOrder->LimitPrice
-					<< "|OrderStatus:" << pOrder->OrderStatus
+					<< "|OrderStatus:" << pOrder->OrderStatus				
 					<< endl;
-				LOG(INFO)<< "Order|OrderSysID:" << pOrder->OrderSysID << "|<" << pOrder->InstrumentID
+			LOG(INFO) << "[Order]|OrderID:" << FrontID + "_" + SessionID + "_" + string(pOrder->OrderRef) << "|<" << pOrder->InstrumentID
 					<< ">|(Bid 0 Ask 1):" << pOrder->Direction
+					<< "|CombOffsetFlag:" << pOrder->CombOffsetFlag
 					<< "|VolumeTotalOriginal:" << pOrder->VolumeTotalOriginal
 					<< "|VolumeTotal:" << pOrder->VolumeTotal
 					<< "|VolumeTraded:" << pOrder->VolumeTraded
 					<< "|LimitPrice:" << pOrder->LimitPrice
-					<< "|OrderStatus:" << pOrder->OrderStatus
+					<< "|OrderStatus:" << pOrder->OrderStatus				
 					<< endl;
 			//}
 			g_lockqueue.unlock(); 
@@ -277,12 +286,21 @@ void CTraderSpi::OnRspQryInvestorPosition(CThostFtdcInvestorPositionField *pInve
 		//更新持仓列表
 		g_lockqueue.lock();		
 		//存在委托 CTP 会出现持仓为0而冻结持仓不为0的情况，需要清理一下。		
-		if (pInvestorPosition->Position > 0)
+		if (pInvestorPosition->YdPosition > 0)
 		{
 			/*	pInvestorPosition->LongFrozen = 0;
 				pInvestorPosition->ShortFrozen = 0;
-				}*/
-			InvestorPositionList.push_back(*pInvestorPosition);			
+				}*/				
+			
+			///持仓恢复到昨仓
+			pInvestorPosition->Position = pInvestorPosition->YdPosition;
+			//冻结持仓恢复为0
+			pInvestorPosition->ShortFrozen = 0;
+
+			pInvestorPosition->LongFrozen = 0;
+			
+		    InvestorPositionList.push_back(*pInvestorPosition);			
+			
 			cerr << "[Position]|<" << pInvestorPosition->InstrumentID << ">|(2.Long 3.Short):"
 				<< pInvestorPosition->PosiDirection << "|Position:" << pInvestorPosition->Position
 		/*		<< "|Frozen:" 
@@ -295,7 +313,7 @@ void CTraderSpi::OnRspQryInvestorPosition(CThostFtdcInvestorPositionField *pInve
 		/*		<< "|Frozen:"
 				<< (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)*/
 				<< "|Enable:"
-				<< pInvestorPosition->Position - (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)
+				<< pInvestorPosition->Position - (pInvestorPosition->PosiDirection == '2' ? pInvestorPosition->ShortFrozen : pInvestorPosition->LongFrozen)				
 				<< endl;
 		}
 		g_lockqueue.unlock();
@@ -503,19 +521,19 @@ void CTraderSpi::OnRtnTrade(CThostFtdcTradeField *pTrade)
 {
 
 
-	Msg MsgTrade;
+	//Msg MsgTrade;
 
-	//MsgType Type = RtnTrade;
+	////MsgType Type = RtnTrade;
 
-	MsgTrade.Msg_Type = RtnTrade;
-	if (pTrade!=nullptr)
-	MsgTrade.RtnTrade = *pTrade;
+	//MsgTrade.Msg_Type = RtnTrade;
+	//if (pTrade!=nullptr)
+	//MsgTrade.RtnTrade = *pTrade;
 
-	g_lockqueue.lock();
+	//g_lockqueue.lock();
 
-	MsgQueue.push(MsgTrade);
+	//MsgQueue.push(MsgTrade);
 
-	g_lockqueue.unlock();
+	//g_lockqueue.unlock();
 
 	/*if ((pTrade->Direction == THOST_FTDC_D_Buy))
 	if (pTrade->OffsetFlag == THOST_FTDC_OF_Open)
@@ -851,7 +869,10 @@ string CTraderSpi::ReqQuoteInsert(TThostFtdcOrderSysIDType ForQuoteSysID, TThost
 	
 	int iResult = pTraderUserApi->ReqQuoteInsert(&req, ++iRequestID);
 	cerr << "--->>> ReqQuoteInsert: " << iResult << ((iResult == 0) ? ", Success" : ", Fail") << endl;
+	LOG(WARNING) << "--->>> ReqQuoteInsert: " << iResult << ((iResult == 0) ? ", Success" : ", Fail") << endl;
+
 	return  ((iResult == 0) ? ORDER_REF : "error");
+
 }
 void CTraderSpi::OnRspExecOrderInsert(CThostFtdcInputExecOrderField *pInputExecOrder, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
 {
@@ -945,6 +966,8 @@ void CTraderSpi::ReqQuoteAction(CThostFtdcQuoteField *pQuote)
 
 	int iResult = pTraderUserApi->ReqQuoteAction(&req, ++iRequestID);
 	cerr << "--->>> ReqQuoteAction: " << iResult << ((iResult == 0) ? ",Success" : ",Fail") << endl;
+	LOG(WARNING)<< "--->>> ReqQuoteAction: " << iResult << ((iResult == 0) ? ",Success" : ",Fail") << endl;
+	
 	//QUOTE_ACTION_SENT = true;
 }
 void CTraderSpi::OnRspExecOrderAction(CThostFtdcInputExecOrderActionField *pInpuExectOrderAction, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast)
@@ -1006,7 +1029,7 @@ void CTraderSpi::OnRtnQuote(CThostFtdcQuoteField *pQuote)
 	
 	cerr << "[OnRtnQuote]|<" << pQuote->InstrumentID << ">|Bid:" << pQuote->BidPrice 
 		<< "|" << pQuote->BidVolume << "|Ask:" << pQuote->AskPrice<<"|" << pQuote->AskVolume<<endl;
-	LOG(INFO)<< " [OnRtnQuote]|<" << pQuote->InstrumentID << ">|Bid:" << pQuote->BidPrice
+	LOG(WARNING) << " [OnRtnQuote]|<" << pQuote->InstrumentID << ">|Bid:" << pQuote->BidPrice
 		<< "|" << pQuote->BidVolume << "|Ask:" << pQuote->AskPrice << "|" << pQuote->AskVolume << endl;;
 	
 	

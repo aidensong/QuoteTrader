@@ -495,6 +495,7 @@ public:
 	virtual int ReqQryTradingCode(CThostFtdcQryTradingCodeField *pQryTradingCode, int nRequestID) = 0;
 
 	///请求查询合约保证金率
+
 	virtual int ReqQryInstrumentMarginRate(CThostFtdcQryInstrumentMarginRateField *pQryInstrumentMarginRate, int nRequestID) = 0;
 
 	///请求查询合约手续费率

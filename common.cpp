@@ -104,6 +104,7 @@ void PositionChange(string InstrumentID, TThostFtdcDirectionType Direction, TTho
 			if ((InvestorPosition.PosiDirection == PosiDirectionType)
 				&& (strcmp(InvestorPosition.InstrumentID, InstrumentID.c_str()) == 0))
 			{
+				//if ((InvestorPosition.Position + Volume)>0)
 				InvestorPosition.Position += Volume;
 				isFinded = true;
 			}
@@ -139,6 +140,7 @@ void PositionChange(string InstrumentID, TThostFtdcDirectionType Direction, TTho
 			if ((InvestorPosition.PosiDirection == PosiDirectionType)
 				&& (strcmp(InvestorPosition.InstrumentID, InstrumentID.c_str()) == 0))
 			{
+				if((InvestorPosition.Position - Volume)>=0)
 				InvestorPosition.Position = InvestorPosition.Position-Volume;				
 			}
 		}
@@ -148,6 +150,8 @@ void PositionChange(string InstrumentID, TThostFtdcDirectionType Direction, TTho
 //持仓冻结
 void PositionFrozen(string InstrumentID, TThostFtdcDirectionType Direction, int Volume)
 {
+	
+	
 	bool isLong;
 	TThostFtdcPosiDirectionType PosiDirectionType;
 	
@@ -195,8 +199,10 @@ void PositionFrozen(string InstrumentID, TThostFtdcDirectionType Direction, int 
 				&& (strcmp(InvestorPosition.InstrumentID, InstrumentID.c_str()) == 0))
 			{
 				if (isLong)
+					if ((InvestorPosition.LongFrozen + Volume)>=0)//数据验证
 					InvestorPosition.LongFrozen = InvestorPosition.LongFrozen + Volume;
 				else
+					if ((InvestorPosition.ShortFrozen + Volume)>=0)//数据验证
 					InvestorPosition.ShortFrozen = InvestorPosition.ShortFrozen+ Volume;
 			}
 		}
